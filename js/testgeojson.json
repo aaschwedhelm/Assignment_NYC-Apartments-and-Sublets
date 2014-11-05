@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Start_date": "Moved in: 08/01/14",
+        "Neighborhood": "Sunnyside",
+        "End_date": "Moved out: 08/30/14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92412662506102,
+          40.74488350771816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Start_date": "Moved in: 10/15/14",
+        "Neighborhood": "Elmhurst",
+        "End_date": "Moved out: 11/15/14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.88288497924805,
+          40.74465591168391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Start_date": "Moved in: 09/01/14",
+        "Neighborhood": "Roosevelt Island",
+        "End_date": "Moved out: 10/01/14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94914627075195,
+          40.76247107352298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Start_date": "Moved in: 07/01/14",
+        "Neighborhood": "Park Slope",
+        "End_date": "Moved out: 08/01/14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97935867309569,
+          40.67009259463734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Start_date": "Moved in: 10/01/14",
+        "Neighborhood": "Dittmas Park",
+        "End_date": "Moved out: 10/15/14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96528244018555,
+          40.6377949795627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Start_date": "Moved in: 02/02/13",
+        "Neighborhood": "Chelsea",
+        "End_date": "Moved out: 06/30/14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00270462036131,
+          40.742444938247374
+        ]
+      }
+    }
+  ]
+}
