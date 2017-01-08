@@ -1,7 +1,14 @@
 var map = L.map('map').setView([40.68025, -74.00155], 13);
 
-L.tileLayer('http://{s}.tiles.mapbox.com/v3/examples.map-i875mjb7/{z}/{x}/{y}.png', {
+L.tileLayer('https://a.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png', {
     maxZoom: 18
+}).addTo(map);
+
+L.tileLayer('https://a.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png', {
+	minZoom: 0,
+	maxZoom: 18,
+	attribution: 'Tiles courtesy of '© <a href="https://www.mapbox.com/map-feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>'
+
 }).addTo(map);
 
 function popUp(feature, layer) {
