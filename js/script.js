@@ -7,11 +7,13 @@ L.tileLayer('http://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png', {
 
 }).addTo(map);
 
-function popUp(feature, layer) {
-  layer.bindPopup(feature.properties.Neighborhood + '<br/>' + feature.properties.Start_date + '<br/>' + feature.properties.End_date);
-}
-
 //Get external geoJSON file
 var geojsonLayer = new L.GeoJSON.AJAX("./js/testgeojson.json",{onEachFeature:popUp});
 
 geojsonLayer.addTo(map);
+
+function popUp(feature, layer) {
+  layer.bindPopup(feature.properties.Neighborhood + '<br/>' + feature.properties.Start_date + '<br/>' + feature.properties.End_date);
+}
+
+
